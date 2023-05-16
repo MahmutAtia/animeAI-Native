@@ -6,7 +6,7 @@ import HomeAnimeCard from '../comonents/cards/homeAnimeCard';
 const RecomendScreen = ({route,navigation}) => {
     const item = route.params.item;
 
-    const [AnimeData,loading,err] = useFetch(url =`https://deba-78-162-11-110.ngrok-free.app/animes/recommend/${item.id}`);
+    const [AnimeData,loading,err] = useFetch(url =` https://ea2e-95-10-66-41.ngrok-free.app/animes/recommend/${item.id}`);
     return (
       <View className=" flex-1 bg-[#1B1E26] items-center">
       <Text className="w-full text-white font-extrabold text-center text-2xl text-bold px-3 mb-3 pb-2rounded-xl rounded-b-3xl">Most Similar To: {item.title}</Text>

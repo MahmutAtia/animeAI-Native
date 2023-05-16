@@ -15,7 +15,7 @@ import { TouchableOpacity } from "react-native";
 
 const CoverScreen = ({ navigation }) => {
   const [data, loading, err] = useFetch(
-    (url = "https://deba-78-162-11-110.ngrok-free.app/animes/random/")
+    (url = "  https://ea2e-95-10-66-41.ngrok-free.app/animes/random/")
   );
   console.log(data, loading, err);
   const { width: w, height: h } = useWindowDimensions();

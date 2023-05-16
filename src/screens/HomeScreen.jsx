@@ -10,13 +10,13 @@ import { changeUrl } from '../features/fetchSlice';
 const HomeScreen = ({navigation}) => {
   
     const dispatch = useDispatch()
-    const [GenreData,Genreloading,Genreerr] = useFetch(url = "https://deba-78-162-11-110.ngrok-free.app/animes/genre/");
+    const [GenreData,Genreloading,Genreerr] = useFetch(url = "https://ea2e-95-10-66-41.ngrok-free.app/animes/genre/");
     
     // content logic
     const urlPart = useSelector(state=>state.fetch.url)
-    const [AnimeData,loading,err] = useFetch(url = "https://deba-78-162-11-110.ngrok-free.app/animes/"+urlPart);
+    const [AnimeData,loading,err] = useFetch(url = " https://ea2e-95-10-66-41.ngrok-free.app/animes/"+urlPart);
 
-    console.log("https://deba-78-162-11-110.ngrok-free.app/animes/"+urlPart)
+    console.log(" https://ea2e-95-10-66-41.ngrok-free.app/animes/"+urlPart)
     const [clickedid,setclickedid] = useState(null)
    
 

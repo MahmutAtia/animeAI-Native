@@ -2,9 +2,15 @@
   "expo": {
     "name": "AnimeNative",
     "slug": "AnimeNative",
-    
     "version": "1.0.0",
-    "assetBundlePatterns": ["**/*"]
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ee979203-a77a-4b1b-a5a8-28db9ebc6b63"
+      }
+    }
   },
   "name": "AnimeNative"
 }
